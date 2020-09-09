@@ -20,7 +20,7 @@ describe('Tasks API', () => {
                     response.should.have.status(200);
                     response.body.should.be.a('array');
                     response.body.length.should.be.eq(3);
-                    console.log("hola");
+                    
                 done();
                 });
         });
