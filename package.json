@@ -4,8 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "nyc mocha",
-    "coverage": "nyc --reporter=lcov --reporter=text npm run test"
+    "test": "./node_modules/.bin/mocha --reporter mochawesome"
   },
   "keywords": [],
   "author": "",
